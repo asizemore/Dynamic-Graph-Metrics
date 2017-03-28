@@ -20,6 +20,10 @@ function [ reachGraph ] = reachabilityGraph(contactSequence,...
 %           recording if node j can be reached from node i via a 
 %           time-respecting path up to that time index.
 %       
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 if ~exist('contactTimes','var') || isempty(contactTimes);

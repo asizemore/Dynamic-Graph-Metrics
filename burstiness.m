@@ -11,6 +11,10 @@ function [ B, cov, sigma, m ] = burstiness(sequence)
 %       m = mean of input sequence
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 % first calculate sigma, the standard deviation

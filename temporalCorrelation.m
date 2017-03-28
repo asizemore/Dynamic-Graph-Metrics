@@ -12,6 +12,10 @@ function [ C,C_vec ] = temporalCorrelation( contactSequence,directed )
 %       C_vec = temporal correlation of each node
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 

@@ -33,6 +33,10 @@ function [ forwardLatency, latencyArray, lastContactTimeArray, pathLengthArray ]
 % time.
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 

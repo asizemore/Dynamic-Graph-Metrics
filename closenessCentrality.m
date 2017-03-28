@@ -27,6 +27,10 @@ function [ Cc, tau_vec ] = closenessCentrality(node_i,time,...
 % (since we take the average of 1/tau). 
 %
 %
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
+%
 % Main function:
 
 if ~exist('contactTimes','var') || isempty(contactTimes);

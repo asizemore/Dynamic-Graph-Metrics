@@ -9,6 +9,12 @@ function plotArcNetwork(adj,nodeColor,edgeColor)
         % weighted edge. Edge colors are determined by a gradient from gray to
         % edgeColor and colors edge by ranking. Will plot the line
         % thickness according to the actual edge weight.
+%
+%
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
         
 %% Circle plot
 
