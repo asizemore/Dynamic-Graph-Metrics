@@ -11,6 +11,10 @@ function [ rand_contactSequence ] = randomizedEdges( contactSequence,repeats)
 %       rand_contactSequence = contact sequence of randomized input data. 
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 nEdges = size(contactSequence,1);

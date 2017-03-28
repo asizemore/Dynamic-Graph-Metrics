@@ -23,6 +23,10 @@ function [ S ] = setOfInfluence( node_i, contactSequence,  directed, ...
 % Output:
 %       S = set of Influence vector for node i
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 if ~exist('contactTimes','var') || isempty(contactTimes);

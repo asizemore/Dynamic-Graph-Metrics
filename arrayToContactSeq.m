@@ -13,6 +13,8 @@ function [ contactSequence ] = arrayToContactSeq(adjArray,isdirected)
 %           this will be an nEdges x 4 array of (i,j,t,w) including the
 %           edge weight w.
 %
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
 %
 % Main function
 

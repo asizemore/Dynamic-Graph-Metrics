@@ -17,6 +17,10 @@ function [ nodeColors ] = plotDNarc( contactSequence, nNodes, timeInterval)
 % 
 % Inspiration from Holme and Saramaki, "Temporal Networks" 2011.
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 if ~exist('nNodes','var') || isempty(nNodes);

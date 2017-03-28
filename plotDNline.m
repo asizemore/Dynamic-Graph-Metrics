@@ -15,6 +15,10 @@ function [ nodeColors ] = plotDNline( contactSequence, nNodes, timeInterval)
 % Output:
 %       nodeColors = nNodes x 3 array of node colors.
 % 
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 
 % Main function:
 

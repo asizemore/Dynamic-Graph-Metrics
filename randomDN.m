@@ -12,6 +12,10 @@ function [ contactSequence ] = randomDN(nNodes,nEdges,edgeTimes)
 %               to node j at time t.
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 contactSequence = zeros(nEdges,3);

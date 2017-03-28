@@ -9,6 +9,10 @@ function [ contactSequence ] = ringDN(nNodes,timeInterval)
 %       contactSequence = nNodes x 3 matrix with rows of form (i,j,t)
 %           indicating a contact between nodes i,j at time t.
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 contactSequence = zeros(nNodes,3);

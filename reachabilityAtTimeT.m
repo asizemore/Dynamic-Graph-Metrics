@@ -16,6 +16,10 @@ function [ badj ] = reachabilityAtTimeT(contactSequence,t,directed,nNodes)
 %           connected at time t in dynamic network.
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 if ~exist('nNodes','var') || isempty(nNodes);

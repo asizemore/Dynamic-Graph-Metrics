@@ -22,6 +22,10 @@ function [l,lastContact,pathLength] = latency(contactSequence,node_i,node_j,dire
 %           respecting path.
 %
 %
+%
+% Reference: Ann E. Sizemore and Danielle S. Bassett, "Dynamic Graph 
+% Metrics: Tutorial, Toolbox, and Tale." Submitted. (2017)
+%
 % Main function:
 
 if ~exist('interval','var') || isempty(interval);
