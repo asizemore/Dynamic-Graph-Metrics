@@ -24,6 +24,10 @@ function [ betweennessCent, durationShortestPaths, nFastestPaths ] = ...
 % Main function:
 
 % betweenness centrality
+% First section based on betweenness_bin from the Brain connectivity
+% toolbox (Complex network measures of brain connectivity: Uses and 
+% interpretations. Rubinov M, Sporns O (2010) NeuroImage 52:1059-69.)
+
 adjArray = networksFromContacts(contactSequence,directed);
 
 npoints = size(adjArray,3);
