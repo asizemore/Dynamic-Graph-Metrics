@@ -28,7 +28,7 @@ function [ broadcastCentrality, receiveCentrality ] = ...
 %
 % Main function:
 
-if ~exist('nNodes','var') || isempty(nNodes);
+if ~exist('nNodes','var') || isempty(nNodes)
     nNodes = length(unique([contactSequence(:,1); contactSequence(:,2)]));
 end
 
@@ -38,9 +38,10 @@ directed = 0;
 badj = adjArray(:,:,1);
 badj(badj>0) = 1;
 P_sd = inv(eye(nNodes) - alpha*badj);
+nTimes = size(adjArray,3);
 
-for n = 2:npoints
-    badj = thresholdMatDensity(adjArray{n},0.1);
+for n = 2:nTimes
+    badj = thresholdMatDensity(adjArray(:,:,n),0.1);
     badj(badj>0) = 1;
     P_sd = P_sd*inv(eye(nNodes) - alpha*badj);
 end
