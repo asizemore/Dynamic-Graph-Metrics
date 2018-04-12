@@ -33,7 +33,7 @@ for reps = 1:repeats
         
         r = rand;
         if r < 0.5
-            if edge(1) ~= edge2(2) && edge2(1) ~= edge1(2)
+            if edge1(1) ~= edge2(2) && edge2(1) ~= edge1(2)
             rand_contactSequence(ed,1:2) = [edge1(1) edge2(2)];
             rand_contactSequence(ed2,1:2) = [edge2(1) edge1(2)];
             end
