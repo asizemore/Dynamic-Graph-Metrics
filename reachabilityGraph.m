@@ -27,7 +27,7 @@ function [ reachGraph ] = reachabilityGraph(contactSequence,...
 % Main function:
 
 if ~exist('contactTimes','var') || isempty(contactTimes);
-    contactTimes = sort(unique(contactSequence(:,3),'ascend'));
+    contactTimes = sort(unique(contactSequence(:,3),'sorted'));
 end
 if ~exist('nNodes','var') || isempty(nNodes);
     nNodes = length(unique([contactSequence(:,1); contactSequence(:,2)]));
